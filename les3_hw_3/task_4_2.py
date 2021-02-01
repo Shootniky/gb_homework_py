@@ -16,6 +16,7 @@ def my_func(x, y):
 
 
 try:
-    print(my_func(int(input('Введите первое число - ')), int(input('Введите первое число - '))))
+    print(my_func(int(input('Введите первое число "x" - положительное: ')),
+                  int(input('Введите второе число "y" - отрицательное: '))))
 except ValueError:
     print('Ошибка ввода данных!')
