@@ -35,6 +35,6 @@ class Matrix:
 matrix_1 = Matrix(a)
 matrix_2 = Matrix(b)
 
-print(f'Первая матрица: \n{matrix_1} \n')
-print(f'Вторая матрица: \n{matrix_2} \n')
+print(f'Первая матрица:\n{matrix_1} \n')
+print(f'Вторая матрица:\n{matrix_2} \n')
 print(f'Сложение матриц: \n{matrix_1 + matrix_2}')
